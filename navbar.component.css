@@ -1,0 +1,18 @@
+#navs{
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+ }
+ nav{
+  height: 85px;
+ }
+
+
+ li {
+    transition: box-shadow .3s;
+    float: left;
+    border-radius: 1em;
+  }
+  li:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
